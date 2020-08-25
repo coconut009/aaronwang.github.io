@@ -56,7 +56,7 @@ sudo apt remove apport apport-gtk
 ```
 
 6. Install Java<br>
-Java is necessary pillar for many programs especially for website. To install Java using the following command:
+Java is necessary pillar for many programs especially for website. The easiest way to install Java on linux system is using the apt package management tool, to install Java using the following command:
 ```bash
 # jdk ==> Java Development Kit
 sudo apt-get install default-jdk
@@ -73,3 +73,10 @@ OpenJDK 64-Bit Server VM (build 11.0.5+10-Ubuntu-0ubuntu119.04, mixed mode,shari
 ```
 7. Configure the keyboard shortcuts<br>
 To configure the keyboard shortcuts just follow the path **Setting => Device => keyboard**
+
+8. Install git<br>
+personally I prefer to put some setup file into my personal github repository, in oder to install git ( also through apt package management tool) with the following command:
+```bash
+sudo apt install git
+```
+on
