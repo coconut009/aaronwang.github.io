@@ -79,4 +79,8 @@ personally I prefer to put some setup file into my personal github repository, i
 ```bash
 sudo apt install git
 ```
-on
+after the installation finish check the version of git
+```bash
+git --version
+```
+
